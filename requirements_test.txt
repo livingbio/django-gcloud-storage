@@ -1,7 +1,30 @@
 -r requirements.txt
-Django
-coverage
-mock
-nose
-django-nose
-pillow
+# A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+# https://pypi.python.org/pypi/Django/1.9.1
+Django==1.9.1
+
+
+# Code coverage measurement for Python
+# https://pypi.python.org/pypi/coverage/4.1b2
+coverage==4.1b2
+
+
+# Rolling backport of unittest.mock for all Pythons
+# https://pypi.python.org/pypi/mock/1.3.0
+mock==1.3.0
+
+
+# nose extends unittest to make testing easier
+# https://pypi.python.org/pypi/nose/1.3.7
+nose==1.3.7
+
+
+# Makes your Django tests simple and snappy
+# https://pypi.python.org/pypi/django-nose/1.4.3
+django-nose==1.4.3
+
+
+# Python Imaging Library (Fork)
+# https://pypi.python.org/pypi/Pillow/3.1.0
+Pillow==3.1.0
+
